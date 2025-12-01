@@ -33,8 +33,8 @@ Built on AirSim360, we collected the large-scale **Omni360-X** dataset (more tha
 
 | Subset | Focus | Samples/Frames | Key Annotations |
 | :--- | :--- | :--- | :--- |
-| **Omni360-Scene** | Panoramic scene parsing | $\sim$61,000 images | Depth, Semantic/Entity Segmentation |
-| **Omni360-Human** | Pedestrian behavior understanding | $\sim$100,700 frames | 3D Human Keypoints |
+| **Omni360-Scene** | Panoramic scene parsing | ~61,000 images | Depth, Semantic/Entity Segmentation |
+| **Omni360-Human** | Pedestrian behavior understanding | ~100,700 frames | 3D Human Keypoints |
 | **Omni360-WayPoint** | UAV Navigation and Control | $>100,000$ waypoints | Physics-consistent trajectories ($p(t)$, $v(t)$, $a(t)$) |
 
 ---
