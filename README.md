@@ -4,7 +4,10 @@ AirSim360 is the first platform to systematically model the 4D real world under 
 
 The platform enables closed-loop simulation for omnidirectional aerial systems and offers an integrated toolchain for intelligent data acquisition across diverse flight scenarios.
 
+Please wait for our realease source including python tookit, UE plugin and collected dataset!
+
 ---
+
 
 ## ✨ Core Capabilities
 
@@ -41,6 +44,6 @@ Built on AirSim360, we collected the large-scale **Omni360-X** dataset (more tha
 
 ## 🔗 Links
 
-* **Project Website, Toolkit, Plugins, and Datasets:** [https://insta360-research-team.github.io/AirSim360-website/](https://insta360-research-team.github.io/AirSim360-website/)
+* **Project Website:** [https://insta360-research-team.github.io/AirSim360-website/](https://insta360-research-team.github.io/AirSim360-website/)
 
 ---
