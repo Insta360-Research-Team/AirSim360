@@ -4,10 +4,12 @@ AirSim360 is the first platform to systematically model the 4D real world under 
 
 The platform enables closed-loop simulation for omnidirectional aerial systems and offers an integrated toolchain for intelligent data acquisition across diverse flight scenarios.
 
-Please wait for our realease source including python tookit, UE plugin and collected dataset!
+> ### 📢 Release Schedule
+> We are actively finalizing the repository for public release. Thank you for your interest and patience!
+> * **By April 12, 2026:** Release of the AirSim360 data collection software and an initial portion of the scene data.
+> * **By April 17, 2026:** Complete rollout of all software and scene datasets associated with the paper.
 
 ---
-
 
 ## ✨ Core Capabilities
 
@@ -38,7 +40,7 @@ Built on AirSim360, we collected the large-scale **Omni360-X** dataset (more tha
 | :--- | :--- | :--- | :--- |
 | **Omni360-Scene** | Panoramic scene parsing | ~61,000 images | Depth, Semantic/Entity Segmentation |
 | **Omni360-Human** | Pedestrian behavior understanding | ~100,700 frames | 3D Human Keypoints |
-| **Omni360-WayPoint** | UAV Navigation and Control | $>100,000$ waypoints | Physics-consistent trajectories $(p(t), v(t), a(t))$ |
+| **Omni360-WayPoint** | UAV Navigation and Control | >100,000 waypoints | Physics-consistent trajectories (p(t), v(t), a(t)) |
 
 ---
 
