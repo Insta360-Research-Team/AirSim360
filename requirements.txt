@@ -1,0 +1,24 @@
+# Pinned to match `conda activate airsim360` + `pip list` (Python 3.12.12).
+#
+# `airsim` runs `import msgpackrpc` while pip resolves metadata. Install RPC deps
+# into the *active* env first, then this file (one copy-paste line):
+#
+#   pip install msgpack-python==0.5.6 msgpack-rpc-python==0.4.1 tornado==4.5.3 backports.ssl_match_hostname==3.7.0.1
+#   pip install -r requirements-demo.txt
+
+packaging==25.0
+setuptools==80.10.2
+wheel==0.46.3
+numpy==2.4.3
+opencv-contrib-python==4.13.0.92
+backports.ssl_match_hostname==3.7.0.1
+msgpack-python==0.5.6
+msgpack-rpc-python==0.4.1
+tornado==4.5.3
+airsim==1.8.1
+pip==26.0.1
+
+# data/demo_sample readers (not in that `pip list`; bundled so one file covers demo + client)
+imageio==2.37.0
+pillow==11.3.0
+OpenEXR==3.3.2
