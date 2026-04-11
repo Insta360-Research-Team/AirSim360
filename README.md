@@ -5,6 +5,7 @@
 [![CVPR 2026](https://img.shields.io/badge/CVPR_2026-%F0%9F%94%A5_Accepted-E3242B?style=flat-square)](YOUR_ARXIV_LINK)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-e05d44?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2512.02009)
 [![Project Page](https://img.shields.io/badge/Project_Page-Website-97ca00?style=flat-square&logo=googlechrome&logoColor=white)](https://insta360-research-team.github.io/AirSim360-website/)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E?style=flat-square&logo=huggingface&logoColor=171717)](https://huggingface.co/datasets/Insta360-Research/AirSim360)
 
 *AirSim360 is a high-fidelity **omnidirectional (360°) aerial simulation** stack built on Unreal Engine 5.*
 
@@ -39,11 +40,11 @@
 
 ---
 
-## 🗓️ Release Timeline (Roadmap)
+## 🗓️ Release Timeline
 
 > ❤️ **A Note to the Community:** Thank you for your patience! As a token of our appreciation, the content open-sourced this month will **exceed** the amount originally mentioned in our paper.
 
-* **🟢 Before April 12, 2026:** Release of the **AirSim360 Air** trial software and detailed dataset usage instructions.
+* **🟢 Before April 12, 2026:** Release of the **AirSim360 Air** beta version software and detailed dataset usage instructions.
 * **⏳ Before April 17, 2026:** **AirSim360 Pro** and full dataset launch. *(Note: Our dataset package exceeds **700 GB**, and we are currently coordinating hosting logistics!)*
 * **📅 May 15, 2026 onwards:** **Monthly Map Drops.** New scene maps for Air/Pro will be released on the **15th of every month**.
 * **🚀 Before End of Q2 2026:**
@@ -53,14 +54,14 @@
 
 ---
 
-## ⚖️ AirSim360 Air vs. Pro (at a glance)
+## ⚖️ AirSim360 Air vs. Pro
 
 | 🚀 Features | 🕹️ **AirSim360 Air** | 💻 **AirSim360 Pro** |
 | :--- | :--- | :--- |
 | **Target Audience** | Researchers wanting **keyboard-and-mouse** collection with **minimal setup** | Developers needing **programmatic control**, batch capture, and integration |
 | **Control Surface** | Integrated **control panel**, hotkeys, **multi-viewport** feedback | **Python / RPC** in an **AirSim-style** workflow (`MultirotorClient`, state, APIs) |
 | **Panorama & Sensors** | **One-click** capture; previews off by default (<kbd>R</kbd> toggles) | Sensors **enabled in code** by default; resolution is **fully configurable** |
-| **Notable Extras** | **Zero** extra app setup beyond the shipped package | **FPV/TPV** toggle; **velocity/position** commands; **MetaHuman**-enriched environments |
+| **Notable Extras** | **No environment setup** — **open the shipped build and run** | **FPV/TPV** toggle; **velocity/position** commands; **MetaHuman**-enriched environments |
 
 📚 **Guides:** [Air User Guide](software/AirSim360_Air_User_Guide_EN.md) · [Pro User Guide](software/AirSim360_Pro_User_Guide_EN.md)
 
@@ -70,25 +71,20 @@
 
 ## 📦 Open-source assets in this repository
 
-| 🧩 Asset | 🎯 What you get | 📍 Where |
+| 🧩 Assets | 🎯 What you get | 🤗 Hugging Face |
 | :--- | :--- | :--- |
-| **AirSim360 Air Bundles** | Packaged **UE environments** (City/Factory/Courtyard) | [`software/Windows_Version_Air/`](software/Windows_Version_Air/) |
-| **User Guides (EN)** | Air/Pro quick start, capture APIs, and Python client | [`software/`](software/) |
-| **Omni360-X Preview** | **One aligned frame**: RGB, Depth, Semantic, Instance PNGs | [`data/demo_sample/`](data/demo_sample/) |
-| **Demo Scripts** | Shared filename stem readers and modality helpers | [`data/demo_sample/scripts/`](data/demo_sample/scripts/) |
-| **Media** | Screenshots and **Air/Pro** demo clips | [`media/`](media/) |
+| **AirSim360 Air/Pro Bundles** | Packaged **UE environments** (City/Factory/Courtyard) | [Hugging Face](https://huggingface.co/datasets/Insta360-Research/AirSim360) |
+| **User Guides (EN)** | Air/Pro quick start, capture APIs, and Python client | [./software](./software) |
+| **Omni360-X Datasets** | **Omni360-Scene**, **Omni360-WayPoint** | [Omni360-X Datasets on Hugging Face](https://huggingface.co/datasets/Insta360-Research/AirSim360)<br>*All datasets will be fully available in the Hugging Face dataset before **April 17, 2026**.* |
 
 ---
 
-## 📂 Repository layout (quick)
+## 📂 Repository layout
 
 | Path | Purpose |
 | :--- | :--- |
-| `software/` | Guides, Windows **Air** scene archives, release notes context |
-| `data/demo_sample/` | One synchronized **four-modality** sample + Python readers |
-| `media/` | Images and videos for documentation |
-| `scripts/` | Small shared utilities |
-| `LICENSE`, `CONTRIBUTING.md`, `CHANGELOG.md` | Project metadata |
+| `software/` | User guides for **AirSim360 Air** and **AirSim360 Pro** |
+| `data/demo_sample/` | Overview of the panoramic dataset layout and how to use **ground-truth** labels |
 
 ---
 
