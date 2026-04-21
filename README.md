@@ -41,7 +41,7 @@ AirSim360 addresses the lack of large-scale, diverse equirectangular (ERP) drone
 - [📝 Citation](#citation)
 </details>
 
-> 📢 **Release Notice:** The public upload of **Omni360-Scene** and **Omni360-WayPoint** may be delayed to around **April 20, 2026** due to the large number of small files and network-related constraints. The software release is unaffected: both **AirSim360 Air** and **AirSim360 Pro** were updated on **Hugging Face** on **April 17, 2026**.
+> 📢 **April 20, 2026 Update:** We have uploaded over **120,000** panoramic frames and their annotations for **Omni360-Scene**, now available via the [Hugging Face](https://huggingface.co/datasets/Insta360-Research/AirSim360/tree/main/Omni360-Scene). More open-source data will be released later this week. Stay tuned.
 
 ---
 
@@ -55,6 +55,7 @@ This section will be updated continuously so users can track what has been relea
 | :---: | :---: | :---: | :--- |
 | 2026-04-10 | Software scenes | Released | First public scene packages are available: CityDowntown, Factory, SpanishCourtyard, DekogonGym, and AtmosphericHouse. |
 | 2026-04-17 | AirSim360 Pro | Released | AirSim360 Pro is now publicly available. |
+| 2026-04-20 | Omni360-Scene | Released | The first release includes over 120,000 panoramic frames and annotations from three open-world scenes. |
 | From 2026-05 | Monthly updates | Planned | New software scenes and dataset content will be added regularly. |
 | Before the end of Q2 2026 | Platform expansion | Planned | Linux support, more dynamic humans, and related calling methods will be added in later releases. |
 | TBD | Future release entry | Reserved | Add each new public release note here as the repository grows. |
@@ -92,7 +93,7 @@ To handle the stunning realism and simultaneous rendering of panoramic RGB, dept
 - Current public dataset tracks include **Omni360-Scene** and **Omni360-WayPoint**.
 - **Omni360-Scene** — [Download on Hugging Face](https://huggingface.co/datasets/Insta360-Research/AirSim360/tree/main/Omni360-Scene)
 - **Omni360-WayPoint** — [Download on Hugging Face](https://huggingface.co/datasets/Insta360-Research/AirSim360/tree/main/Omni360-WayPoint)
-- Note: the final public upload of both tracks may be delayed to around April 20, 2026.
+- Note: **Omni360-Scene** is now publicly available, and additional open-source data will be released later this week.
 - **Omni360-Scene** follows the same structure shown in the [demo sample](data/demo_sample/): every frame is aligned across modalities by a shared file stem.
 - The core released modalities are:
   - **Raw (panorama):** Equirectangular RGB images.
