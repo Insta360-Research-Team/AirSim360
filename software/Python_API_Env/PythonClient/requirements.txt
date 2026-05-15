@@ -1,0 +1,4 @@
+numpy
+msgpack-rpc-python
+opencv-python
+matplotlib
