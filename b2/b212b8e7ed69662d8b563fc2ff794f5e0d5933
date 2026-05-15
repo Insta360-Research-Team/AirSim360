@@ -1,0 +1,23 @@
+README.md
+  6c8b799c2929a45f 59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "b2b212b8e7ed69662d8b563fc2ff794f5e0d5933",
+  "prompts": {
+    "6c8b799c2929a45f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d0c6f3e2-b924-429e-ae87-390a8bddc536",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Z-Insta360",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
