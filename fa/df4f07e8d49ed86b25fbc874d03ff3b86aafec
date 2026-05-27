@@ -1,0 +1,23 @@
+README.md
+  194537e8585e04a9 60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "fadf4f07e8d49ed86b25fbc874d03ff3b86aafec",
+  "prompts": {
+    "194537e8585e04a9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "56c0d244-f24a-4f25-852e-9a2180a863ba",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Z-Insta360",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
