@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "b58699e42002c793816038733cc3eb204cb7d9d8",
+  "prompts": {
+    "194537e8585e04a9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "56c0d244-f24a-4f25-852e-9a2180a863ba",
+        "model": "default"
+      },
+      "human_author": "Z-Insta360",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 1,
+      "accepted_lines": 0,
+      "overriden_lines": 1
+    }
+  }
+}
