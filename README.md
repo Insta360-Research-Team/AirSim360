@@ -58,6 +58,7 @@ This section will be updated continuously so users can track what has been relea
 | 2026-04-20 | Omni360-Scene | Released | The first release includes over 120,000 panoramic frames and annotations from three open-world scenes. |
 | 2026-05-15 | Python API environment | Released | Released the patched Python API environment package at [`software/Python_API_Env`](software/Python_API_Env/), bundling the reproducible Conda specification (`environment.yml`), pinned dependency manifest (`requirements.txt`), and the AirSim360-compatible `PythonClient` for programmatic control via the AirSim360 Pro RPC interface. |
 | 2026-05-27 | Omni360-Scene | Released | Added camera poses in the Unreal Engine (UE) coordinate system for three Omni360-Scene environments under `data/UE_Raw_sample_pts.zip`, including 6-DoF (x, y, z, pitch, yaw, roll) information for the panoramic cameras. |
+| 2026-06-05 | AirSim360 Pro | Released | The Linux binaries for the first public release of AirSim360 Pro (Ubuntu 24.04) are available in the [AirSim360_Pro_Ubuntu](https://huggingface.co/datasets/Insta360-Research/AirSim360/tree/main/AirSim360_Pro_Ubuntu) folder on Hugging Face.|
 | From 2026-05 | Monthly updates | Planned | New software scenes and dataset content will be added regularly. |
 | Before the end of Q2 2026 | Platform expansion | Planned | Linux support, more dynamic humans, and related calling methods will be added in later releases. |
 | TBD | Future release entry | Reserved | Add each new public release note here as the repository grows. |
